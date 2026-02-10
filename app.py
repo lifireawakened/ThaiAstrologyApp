@@ -11,7 +11,7 @@ GOOGLE_API_KEY = "AIzaSyAZsA2l0Qv07VDHGfTKAHTSWPMMCLJ59J4"
 # --- 設定 AI 大腦 ---
 try:
     genai.configure(api_key=GOOGLE_API_KEY)
-    model = genai.GenerativeModel('gemini-1.5-flash') # 使用強大的 Gemini Pro 模型
+    model = genai.GenerativeModel('gemini-pro') # 使用強大的 Gemini Pro 模型
 except Exception as e:
     st.error("API Key 設定有誤，請檢查代碼。")
 
@@ -71,4 +71,5 @@ if submit_btn:
 st.markdown("---")
 
 st.caption("© 2024 泰國占星大師 | Powered by Google Gemini AI")
+
 
