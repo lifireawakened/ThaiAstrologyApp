@@ -6,7 +6,7 @@ st.set_page_config(page_title="泰國皇家占星", page_icon="🙏")
 
 # --- 這裡貼上剛剛在 AI Studio 拿到的 API Key ---
 # 注意：真實發布時不能這樣直接貼，但新手練習可以先這樣做
-GOOGLE_API_KEY = AIzaSyAZsA2l0Qv07VDHGfTKAHTSWPMMCLJ59J4
+GOOGLE_API_KEY = "AIzaSyAZsA2l0Qv07VDHGfTKAHTSWPMMCLJ59J4"
 
 # --- 設定 AI 大腦 ---
 try:
@@ -69,4 +69,5 @@ if submit_btn:
 
 # --- 頁尾 ---
 st.markdown("---")
+
 st.caption("© 2024 泰國占星大師 | Powered by Google Gemini AI")
